@@ -1,13 +1,16 @@
 import React from 'react';
-import './css/App.css';
+import HomePage from './components/HomePage'
+import AboutMe from './components/AboutMe'
+import './css/main.scss';
 
 function App() {
   return (
-    <div className="App">
-        <div className="h1 title"> emily tao </div>
-        <div className="h2 description"> developer, designer, engineer </div>
-    </div>
+    <div>
+      <HomePage/>
+      <AboutMe />
+    </div> 
   );
 }
 
 export default App;
+

@@ -1,0 +1,45 @@
+html {
+  height: 100%; 
+  width: 100%;
+}
+
+.home {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/background1.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover ;
+  background-color: #464646;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.h1 {
+  font-family: "Alata";
+  font-size: 3.2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+
+.h2 {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+
+.title {
+  padding-top: 600px;
+}
+
+.description {
+  padding-top: 16px;
+}
