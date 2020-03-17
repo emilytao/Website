@@ -1,25 +1,23 @@
+// generic styling components 
 html {
-  height: 100%; 
-  width: 100%;
+  height: 100%;
 }
 
 body {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/background1.jpg);
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover ;
-  background-color: #464646;
-  text-align: center;
-
+  height: 100%;
+  margin: 0;
 }
 
-img {
-  height: 25px; 
-  width: 25px;
+#root {
+  height: 100%;
 }
 
-.linkedin {
-  padding-right: 10px;
+.container {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .h1 {
@@ -44,10 +42,70 @@ img {
   color: white;
 }
 
-.title {
-  padding-top: 600px;
+.h3 {
+  font-family: "Open Sans";
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
 }
 
-.description {
-  padding: 16px 0px 32px 0px;
+.icon {
+  padding-top: 24px;
+  height: 25px; 
+  width: 25px;
+}
+
+// homepage
+.home {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../assets/background4.jpg);
+  //background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+}
+
+.home__title {
+  padding-top: 500px;
+}
+
+.home__description {
+  padding: 16px 0px 16px 0px;
+}
+
+.linkedin {
+  padding-right: 10px;
+}
+
+// about me 
+.about {
+  padding: 0 200px;
+  text-align: center;
+  height: 100%;
+}
+
+.about__title {
+  display: block;
+  color: black; 
+  padding-bottom: 20px;
+}
+
+.about__description {
+  padding: 5px 300px;
+  display: block;
+  color: black;
+}
+
+.image {
+  padding-top: 200px;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 10%;
+  padding-bottom: 15px;
 }
