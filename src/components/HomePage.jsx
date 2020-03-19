@@ -25,8 +25,8 @@ class HomePage extends React.Component {
         >
           <img className="icon" src={github} alt="" />
         </a>
-        <div className="arrow">
-          <img src={down_arrow} onClick={this.props.function} />
+        <div className="arrow" onClick={this.props.function}>
+          <img src={down_arrow} />
         </div>
       </div>
     );

@@ -8,17 +8,20 @@ function App() {
   let ref = useRef(null);
 
   const onButtonClick = () => {
+    console.log("hello");
     window.scrollTo({ behavior: "smooth", top: ref.current.offsetTop });
   };
 
   return (
-    <div className="container">
-      <HomePage function={onButtonClick} />
+    <React.Fragment>
+      <div onScroll={onButtonClick} className="container">
+        <HomePage function={onButtonClick} />
+      </div>
 
       <div ref={ref} className="container">
         <AboutMe />
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 
