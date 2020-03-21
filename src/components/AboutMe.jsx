@@ -28,7 +28,7 @@ class AboutMe extends React.Component {
           restaurants in my spare time!
         </div>
         <div className="h3 about__description">
-          Checkout the links below for some more information, or to connect.
+          Check out the links below for some more information, or to connect.
         </div>
         <a
           href="https://www.linkedin.com/in/emilytao2000/"
