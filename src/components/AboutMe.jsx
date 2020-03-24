@@ -24,7 +24,7 @@ class AboutMe extends React.Component {
           and creating integrated React web applications.
         </div>
         <div className="h3 about__description">
-          I have a passion for healthcare, and enjoy dancing and checking out
+          I have a passion for healthcare, and I enjoy dancing and checking out
           restaurants in my spare time!
         </div>
         <div className="h3 about__description">
